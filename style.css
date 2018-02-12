@@ -42,6 +42,14 @@ img{
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
+
+  figcaption {
+    font-size: 5em;
+  }
+
+  img {
+    max-width: 500%;
+  }
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
 
@@ -61,5 +69,5 @@ max-width: 745px;
 }
 
 figcaption {
-  font-size: 0.8em; 
+  font-size: 0.8em;
 }
